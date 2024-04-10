@@ -1,7 +1,6 @@
 //Verify Toast Error Message
 
 package TestCases;
-
 import Utils.Configuration;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
