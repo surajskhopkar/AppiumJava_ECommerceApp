@@ -49,7 +49,8 @@ public class Configuration {
     public void longPress(WebElement ele){
         // Java
         ((JavascriptExecutor) driver).executeScript("mobile: longClickGesture", ImmutableMap.of(
-                "elementId", ((RemoteWebElement) ele).getId()
+                "elementId", ((RemoteWebElement) ele).getId(),
+                "duration", 2000
         ));
     }
 }

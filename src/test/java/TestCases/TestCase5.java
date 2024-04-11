@@ -50,5 +50,13 @@ public class TestCase5 extends Configuration {
 
         String termsAndConditions = driver.findElement(By.id("android:id/message")).getText();
         System.out.println(termsAndConditions);
+
+        driver.findElement(By.id("android:id/button1")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.className("android.widget.CheckBox")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.id("com.androidsample.generalstore:id/btnProceed")).click();
+        Thread.sleep(3000);
+
     }
 }
