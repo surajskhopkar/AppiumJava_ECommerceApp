@@ -32,6 +32,7 @@ public class Configuration {
 
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Pixel 6 Pro API 34");
+        //options.setChromedriverExecutable("//Users//surajkhopkar//Documents//Drivers//Chrome//chromedriver");
         options.setApp("//Users//surajkhopkar//Library//CloudStorage//OneDrive-Personal//Repositories//JavaFrameworks//" +
                        "AppiumJava_ECommerceApp//src//test//java//resources//General-Store.apk");
         driver = new AndroidDriver(new URI("http://127.0.0.1:4723/").toURL(),options);
